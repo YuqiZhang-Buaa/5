@@ -1,5 +1,3 @@
-# A Scalable Multiple Instance Learning Framework for Computational Pathology
+# Prioritized Scanning: Combining Spatial Information Multiple Instance Learning for Computational Pathology
 
-
-
-![](./figs/model_0305.png)
+Continuous update
