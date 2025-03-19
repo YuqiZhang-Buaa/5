@@ -148,7 +148,7 @@ parser.add_argument('--opt', type=str, choices = ['adam', 'sgd'], default='adam'
 parser.add_argument('--drop_out', type=float, default=0.25, help='enable dropout (p=0.25)')
 parser.add_argument('--gc', type=int, default=32, help='Gradient Accumulation Step.')
 parser.add_argument('--bag_loss', type=str, choices=['svm', 'ce', 'ce_surv', 'nll_surv', 'cox_surv'], default='nll_surv', help='slide-level classification loss function (default: ce)')
-parser.add_argument('--model_type', type=str, choices=['mean_mil', 'max_mil', 'att_mil','trans_mil', 's4model','mamba_mil', 'rrt', 'momil','clam_sb'], default='mamba_mil', 
+parser.add_argument('--model_type', type=str, choices=['mean_mil', 'max_mil', 'att_mil','trans_mil', 's4model','mamba_mil', 'rrt', 'psmil','clam_sb'], default='mamba_mil', 
                     help='type of model')
 parser.add_argument('--mode', type = str, choices=['path', 'omic', 'pathomic', 'cluster'], default='path', help='which modalities to use')
 parser.add_argument('--apply_sig', action='store_true', default=False, help='Use genomic features as signature embeddings')
